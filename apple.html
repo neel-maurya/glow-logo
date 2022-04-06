@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8ea4013b3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(7, 7, 7);
+    }
+    
+    .logo {
+        color: #fff;
+        position: relative;
+        text-shadow: 0 0 50px #0f0;
+        text-shadow: 0 0 100px #0f0;
+        text-shadow: 0 0 150px #0f0;
+        text-shadow: 0 0 200px #0f0;
+        text-shadow: 0 0 250px #0f0;
+        animation: animate 5s linear infinite;
+    }
+    
+    @keyframes animate {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+</style>
+
+<body>
+    <div class="box">
+        <i class="fa-brands fa-apple fa-10x logo"></i>
+    </div>
+</body>
+
+</html>
